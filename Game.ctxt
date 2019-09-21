@@ -1,10 +1,13 @@
 #BlueJ class context
 comment0.target=Game
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Game\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\n\ Basis\ of\ the\ game\n\ Makes\ world\n\ \n\ @author\ Keagan\ Wilson,\ Subash\ Shibu,\ Alan\ Liang\n\ @version\ 2.0\n
 comment1.params=
 comment1.target=Game()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Game\n\ adds\ timer\ to\ the\ world\n\ makes\ the\ cards\ using\ FOR\ LOOPS\ (summer\ concept)\n
 comment2.params=
 comment2.target=void\ brain()
+comment2.text=\n\ Checks\ to\ see\ if\ card\ matches\ description.\ If\ it\ does\ the\ cards\ are\ removed,\ if\ not\ the\n\ cards\ are\ turned\ over.\ Use\ of\ De\ Morgan's\ Law\ (summer\ concept)\n\ Uses\ if-then\ statements\ (summer\ concept)\n
 comment3.params=
 comment3.target=void\ act()
+comment3.text=\n\ Act-\ displays\ timer\n\ Calls\ brain\ method\n
 numComments=4

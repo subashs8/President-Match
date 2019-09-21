@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Menu here.
+ * Lets you press start
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Keagan Wilson, Subash Shibu, Alan Liang
+ * @version 2.0
  */
 public class Menu extends World
 {
@@ -16,6 +16,6 @@ public class Menu extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(800, 600, 1);
-        addObject(new MouseCollider(), 369, 293);
+        addObject(new MouseCollider(), 400, 300);
     } 
 }

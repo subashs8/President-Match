@@ -3,24 +3,28 @@ import java.util.*;
 import java.util.Collections.*;
 
 /**
- * Write a description of class Carta here.
+ * Represents the card
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Keagan Wilson, Subash Shibu, Alan Liang
+ * @version 2.0
  */
 public class Carta extends Actor
 {
     /**
-     * Act - do whatever the Carta wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * id counts the id of the card
      */
     public int id;
-    
+    /**
+     * shows the image of the card
+     */
     public void flip()
     {
+        String a = "carta" + Integer.toString(id);
         setImage("carta" + Integer.toString(id) + ".jpg");
     }
-    
+    /**
+     * shows a backside
+     */
     public void unflip()
     {
         setImage("padrao.jpg");
@@ -34,7 +38,10 @@ public class Carta extends Actor
             Game.ids.add(this);
         }
     }
-    
+    /**
+     * Act - acts as the card. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
     public void act()
     {
         click();
