@@ -1,16 +1,16 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class MouseCollider here.
+ * Start background
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Keagan Wilson, Subash Shibu, Alan Liang
+ * @version 2.0
  */
 public class MouseCollider extends Actor
 {
     /**
-     * Act - do whatever the MouseCollider wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Act - sets the world to the game. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment. 
      */
     public void act() 
     {
