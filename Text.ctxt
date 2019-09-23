@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Text
-comment0.text=\n\ Used\ as\ a\ timer\n\ \n\ @author\ Keagan\ Wilson,\ Subash\ Shibu,\ Alan\ Liang\ \n\ @version\ 2.0\n
+comment0.text=\r\n\ Used\ as\ a\ timer\r\n\ \r\n\ @author\ Keagan\ Wilson,\ Subash\ Shibu,\ Alan\ Liang\ \r\n\ @version\ 2.0\r\n
 comment1.params=
 comment1.target=Text()
 comment2.params=text

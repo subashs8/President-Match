@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Menu
-comment0.text=\n\ Lets\ you\ press\ start\n\ \n\ @author\ Keagan\ Wilson,\ Subash\ Shibu,\ Alan\ Liang\n\ @version\ 2.0\n
+comment0.text=\r\n\ Lets\ you\ press\ start\r\n\ \r\n\ @author\ Keagan\ Wilson,\ Subash\ Shibu,\ Alan\ Liang\r\n\ @version\ 2.0\r\n
 comment1.params=
 comment1.target=Menu()
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Menu.\n\ \n
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Menu.\r\n\ \r\n
 numComments=2

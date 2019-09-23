@@ -1,13 +1,15 @@
 #BlueJ class context
 comment0.target=Game
-comment0.text=\n\ Basis\ of\ the\ game\n\ Makes\ world\n\ \n\ @author\ Keagan\ Wilson,\ Subash\ Shibu,\ Alan\ Liang\n\ @version\ 2.0\n
+comment0.text=\r\n\ Basis\ of\ the\ game\r\n\ Makes\ world\r\n\ \r\n\ @author\ Keagan\ Wilson,\ Subash\ Shibu,\ Alan\ Liang\r\n\ @version\ 2.0\r\n
 comment1.params=
 comment1.target=Game()
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Game\n\ adds\ timer\ to\ the\ world\n\ makes\ the\ cards\ using\ FOR\ LOOPS\ (summer\ concept)\n
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Game\r\n\ adds\ timer\ to\ the\ world\r\n\ makes\ the\ cards\ using\ FOR\ LOOPS\ (summer\ concept)\r\n
 comment2.params=
 comment2.target=void\ brain()
-comment2.text=\n\ Checks\ to\ see\ if\ card\ matches\ description.\ If\ it\ does\ the\ cards\ are\ removed,\ if\ not\ the\n\ cards\ are\ turned\ over.\ Use\ of\ De\ Morgan's\ Law\ (summer\ concept)\n\ Uses\ if-then\ statements\ (summer\ concept)\n
+comment2.text=\r\n\ Checks\ to\ see\ if\ card\ matches\ description.\ If\ it\ does\ the\ cards\ are\ removed,\ if\ not\ the\r\n\ cards\ are\ turned\ over.\ Use\ of\ De\ Morgan's\ Law\ (summer\ concept)\r\n\ Uses\ if-then\ statements\ (summer\ concept)\r\n
 comment3.params=
-comment3.target=void\ act()
-comment3.text=\n\ Act-\ displays\ timer\n\ Calls\ brain\ method\n
-numComments=4
+comment3.target=void\ increasetimer()
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Act-\ displays\ timer\r\n\ Calls\ brain\ method\r\n
+numComments=5

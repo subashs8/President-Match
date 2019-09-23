@@ -79,6 +79,7 @@ public class Game extends World
                 removeObject(ids.get(1));
                 ids.remove(1);
                 ids.remove(0);
+                increasetimer(); //every time they get something correct, the timer increases by 5 secodns.
             }
             else
             {
@@ -101,6 +102,10 @@ public class Game extends World
             Greenfoot.setWorld(new Gameover());
         }
     }  
+    private void increasetimer()
+    {
+        timer = timer + 300; //increase timer by 5 seconds
+    }
     /**
      * Act- displays timer
      * Calls brain method
